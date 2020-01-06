@@ -85,6 +85,13 @@ In terms of server configuration, you can take the following steps to ensure tha
 * Use a `robots.txt` file to block crawling of any content that should not be indexed.
 
     * Block **all** crawling on test environments.
+    * As of September 1, 2019 Google will no longer respect noindex in robots.txt 
+    * Google’s official blog post listed five ways to control indexing:
+         Noindex in robots meta tags
+         404 and 410 HTTP status codes
+         Password protection
+         Disallow in robots.txt (only effective if content is not yet in the Google index)
+         Search Console Remove URL tool
 
 * When launching a new site with updated URLs, implement 301 redirects to ensure that your existing SEO ranking is not lost.
 * Include a favicon for your site.
